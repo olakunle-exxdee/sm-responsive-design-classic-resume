@@ -163,9 +163,10 @@ img {
   margin: 1rem 0;
 }
 .paragraph-bold-sec {
+  text-transform: uppercase;
   font-size: 1.8rem;
   line-height: 24px;
-  font-weight: bold;
+  font-weight: 600;
   color: var(--secondary-color);
   margin-bottom: 1rem;
 }
