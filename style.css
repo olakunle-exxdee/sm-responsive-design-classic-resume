@@ -50,6 +50,13 @@ img {
   display: block;
 }
 
+li {
+  list-style: none;
+}
+ul {
+  list-style-type: none;
+}
+
 .container {
   background-color: var(--header-footer-color);
   clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
@@ -174,8 +181,6 @@ img {
 /* ======================= BIO===================== */
 
 /* ======================= SKILLSETS===================== */
-.skillset {
-}
 
 .skills {
   margin-bottom: 5rem;
@@ -193,6 +198,48 @@ img {
 }
 
 /* ======================= SKILLSETS===================== */
+/* ======================= FOOTER===================== */
+.container3 {
+  background-color: var(--header-footer-color);
+  clip-path: polygon(100% 0, 100% 99%, 0 100%, 0 18%);
+  color: var(--primary-color);
+  font-family: "Playfair Display", serif;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  text-align: center;
+}
+.footer-heading {
+  font-size: 4rem;
+  font-weight: 900;
+  color: var(--font-color);
+  line-height: 50px;
+}
+.footer-paragraph {
+  font-size: 2.6rem;
+  line-height: 36px;
+  font-weight: 900;
+}
+.footer-group {
+  margin: 4rem 0;
+}
+.social-media {
+  max-width: 240px;
+  margin: 0 auto;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list i {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+/* ======================= FOOTER===================== */
 
 @media only screen and (min-width: 768px) {
   /* ======================= HEADER===================== */
@@ -223,9 +270,12 @@ img {
   }
   /* ======================= HEADER===================== */
 
-  /* ======================= BIO===================== */
-
-  /* ======================= BIO===================== */
+  .footer-heading {
+    font-size: 5.6rem;
+  }
+  .footer-paragraph {
+    font-size: 3rem;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -288,5 +338,11 @@ img {
     flex-basis: 30%;
   }
 
+  .footer-heading {
+    font-size: 6rem;
+  }
+  .footer-paragraph {
+    font-size: 3rem;
+  }
   /* ======================= HEADER===================== */
 }
