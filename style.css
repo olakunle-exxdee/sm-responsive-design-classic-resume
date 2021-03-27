@@ -7,6 +7,7 @@
   --secondary-color: #9e8c6c;
   --font-color: #000000;
   --header-footer-color: #f5f3f0;
+  --color-toggle: #040404;
 }
 
 html[data-theme="light"] {
@@ -15,6 +16,7 @@ html[data-theme="light"] {
   --secondary-color: #9e8c6c;
   --font-color: #000000;
   --header-footer-color: #f5f3f0;
+  --color-toggle: #040404;
 }
 
 html[data-theme="dark"] {
@@ -23,6 +25,7 @@ html[data-theme="dark"] {
   --secondary-color: #9e8c6c;
   --font-color: #e6f5f6;
   --header-footer-color: #010f11;
+  --color-toggle: #ffffff;
 }
 html {
   font-size: 10px;
@@ -64,6 +67,26 @@ ul {
 }
 
 /* ======================= HEADER===================== */
+
+.toggle {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  left: 10%;
+  bottom: 95%;
+}
+
+.sun,
+.moon {
+  font-size: 1.5rem;
+  color: var(--color-toggle);
+  display: block;
+}
+.d-none {
+  display: none;
+}
 .wrapper {
   display: flex;
   align-items: center;
