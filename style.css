@@ -49,9 +49,6 @@ a {
 img {
   display: block;
 }
-/* .main {
-  max-width: 1440px;
-} */
 
 .container {
   background-color: var(--header-footer-color);
@@ -127,6 +124,54 @@ img {
 }
 /* ======================= HEADER===================== */
 
+/* ======================= BIO===================== */
+
+.bio {
+  margin: 2em;
+}
+.bio-content {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.bio-content span {
+  background: var(--primary-color);
+  width: 5.4rem;
+  height: 1rem;
+  display: inline-block;
+  margin-top: 4rem;
+}
+.heading {
+  font-size: 3.2rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  line-height: 42px;
+}
+.paragraph {
+  font-size: 1.8rem;
+  line-height: 30px;
+}
+.paragraph2 {
+  font-size: 1.8rem;
+  line-height: 24px;
+  margin-bottom: 1rem;
+}
+.boxes {
+}
+.paragraph-group {
+  margin: 1rem 0;
+}
+.paragraph-bold-sec {
+  font-size: 1.8rem;
+  line-height: 24px;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+
+/* ======================= BIO===================== */
+
 @media only screen and (min-width: 768px) {
   /* ======================= HEADER===================== */
 
@@ -155,6 +200,10 @@ img {
     line-height: 76px;
   }
   /* ======================= HEADER===================== */
+
+  /* ======================= BIO===================== */
+
+  /* ======================= BIO===================== */
 }
 
 @media only screen and (min-width: 1000px) {
