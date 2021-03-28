@@ -68,7 +68,7 @@ ul {
 
 /* ======================= HEADER===================== */
 
-#button {
+.button {
   background: none;
   border: none;
   outline: none;
