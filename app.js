@@ -1,4 +1,4 @@
-var toggle = document.getElementById("toggle");
+var toggle = document.getElementById("button");
 const sun = document.querySelector(".sun");
 const moon = document.querySelector(".moon");
 

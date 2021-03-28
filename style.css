@@ -68,7 +68,7 @@ ul {
 
 /* ======================= HEADER===================== */
 
-.toggle {
+#button {
   background: none;
   border: none;
   outline: none;
