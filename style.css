@@ -84,6 +84,7 @@ ul {
   color: var(--color-toggle);
   display: block;
 }
+
 .d-none {
   display: none;
 }
