@@ -4,7 +4,8 @@
 :root {
   --background-color: #ffffff;
   --primary-color: #0699a6;
-  --secondary-color: #6d6748f2;
+  /* --secondary-color: #6d6748f2; */
+  --secondary-color: #9d8b6c;
   --font-color: #000000;
   --header-footer-color: #f5f3f0;
   --color-toggle: #040404;
@@ -13,7 +14,8 @@
 html[data-theme="light"] {
   --background-color: #ffffff;
   --primary-color: #04838e;
-  --secondary-color: #6d6748f2;
+  /* --secondary-color: #6d6748f2; */
+  --secondary-color: #9d8b6c;
   --font-color: #000000;
   --header-footer-color: #f5f3f0;
   --color-toggle: #040404;
